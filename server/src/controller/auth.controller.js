@@ -63,6 +63,7 @@ export const LoginUser = async (req, res, next) => {
       error.statusCode = 401;
       return next(error);
     }
+   await nToken(existingUser,);
 
     res.status(200).json({
       message: "Welcome Back",

@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleLogout = () => {
     sessionStorage.removeItem("UserData");
     setIsLogin(false);
-    setUser(false);
+    setUser(false); 
     navigate("/");
   };
 
