@@ -55,7 +55,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="min-h-[90vh] bg-linear-to-r from-(--secondary) to-(--primary) grid grid-cols-2 p-10">
+      <div className="min-h-[90vh] bg-linear-to-r from-(--accent) to-(--accent) grid grid-cols-2 p-10  " id="card">
         <div className="hidden md:block">
           <img src={deliveryboy} alt="" className="rotate-y-180" />
         </div>

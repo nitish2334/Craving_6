@@ -5,10 +5,13 @@
   --primary: #001BB7;
   --primary-text:#dfdff8;
   --secondary: #0046FF;
-  --accent: #FF8040;
+  --accent: #fd5f10;
   --success: #16A34A;
   --error: #DC2626;
   --warning: #F59E0B;
   --background: #F5F1DC;
   --text: #111827;
+}
+#card{
+ 
 }
