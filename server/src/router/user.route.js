@@ -1,9 +1,12 @@
 import express from "express";
+import multer from "multer";
 import { EditUserProfile } from "../controller/user.controller.js";
 import { AuthProtect } from "../middleware/auth.middleware.js";
 
+
+const Upload = multer();
 const router = express.Router();
 
-router.put("/edit-profile", AuthProtect, EditUserProfile);
+router.put("/edit-profile", AuthProtect,upload.single("displayPic"), EditUserProfile);
 
 export default router;
