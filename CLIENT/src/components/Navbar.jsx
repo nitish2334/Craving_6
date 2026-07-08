@@ -44,8 +44,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-99 flex items-center justify-between px-12 py-1 bg-(--color-primary) text-white w-full h-16 shadow-md">
-        <div className="h-full">
+      <div className="sticky top-0 z-99 flex items-center justify-between px-12 py-1 bg-(--color-primary) text-white w-full h-16 shadow-md ">
+        <div className="h-full ">
           <Link to="/">
             <img src={logoLight} alt="Logo" className="w-fit h-full" />{" "}
           </Link>
@@ -58,14 +58,15 @@ const Navbar = () => {
               title="Go to Dashboard"
               onClick={handleNavigate}
             >
-              <img src={user?.photo.url}
+              <img
+                src={user?.photo.url}
                 alt={user?.fullName}
                 className="w-12 h-12 rounded-full object-cover object-top"
               />
               <div className="flex flex-col items-start">
                 <span className="text-base">{user?.fullName}</span>
-                <span className="text-xs text-(--color-primary-content)/80">
-                  Customer
+                <span className="text-xs text-(--color-primary-content)/80 uppercase">
+                  {role}
                 </span>
               </div>
             </button>
