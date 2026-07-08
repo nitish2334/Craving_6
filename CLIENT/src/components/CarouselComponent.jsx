@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
-import bgImage1 from "../assets/carousel/bgImage1.jpg";
-import bgImage2 from "../assets/carousel/bgImage2.jpg";
-import bgImage3 from "../assets/carousel/bgImage3.jpg";
-import bgImage4 from "../assets/carousel/bgImage4.jpg";
+import back0 from "../assets/carousel/back0.jpg";
+import back1 from "../assets/carousel/back1.jpg";
+import back2 from "../assets/carousel/back2.jpg";
+import back3 from "../assets/carousel/back3.jpg";
 
 const CarouselComponent = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
 
-  const images = [bgImage1, bgImage2, bgImage3, bgImage4];
+  const images = [back0, back1, back2, back3];
 
   // Auto-rotate carousel
   useEffect(() => {
