@@ -4,7 +4,7 @@ import { useAuth } from "../../context/AuthContext";
 import api from "../../config/api.config";
 import toast from "react-hot-toast";
 import { MdOutlineAddAPhoto ,MdOutlineLockReset } from "react-icons/md";
-import PasswordChangeModal from "../commonModals/PasswordChangeModal";
+import PasswordChangeModal from "../commonModels/PasswordChangeModel";
 
 const RiderSetting = () => {
   const { user, setUser } = useAuth();
