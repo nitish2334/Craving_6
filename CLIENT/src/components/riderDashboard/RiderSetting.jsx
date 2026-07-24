@@ -14,7 +14,6 @@ const RiderSetting = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isPasswordChangeModalOpen, setIsPasswordChangeModalOpen] =
     useState(false);
-
   const [formData, setFormData] = useState({
     fullName: user?.fullName || "",
     email: user?.email || "",

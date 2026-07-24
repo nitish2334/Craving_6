@@ -3,15 +3,15 @@ import { Toaster } from "react-hot-toast";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import Register from "./pages/Register";
-import Login from "./Pages/Login";
+import Login from "./pages/Login";
 import CustomerDashboard from "./pages/dashboard/CustomerDashboard";
 import Contact from "./pages/Contact";
-import RestaurantDashboard from "./pages/dashboard/RestaurantDashboard";
+import RestaurantDashboard from "./Pages/dashboard/RestaurantDashboard";
 import RiderDashboard from "./pages/dashboard/RiderDashboard";
 import AdminDashboard from "./pages/dashboard/AdminDashboard";
-import Test from "./pages/Test";
+import Test from "./Pages/Test";
 
 const App = () => {
   return (
